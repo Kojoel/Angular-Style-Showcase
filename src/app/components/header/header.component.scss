@@ -1,0 +1,69 @@
+@import '../../../assets/styles/variables';
+
+header {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $smokey-black;
+    border-radius: 0 0 8px 8px;
+    padding: 0 4rem;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+
+    h3.logo {
+        font-size: 1.5rem;
+        font-family: $fontserrat; 
+        font-weight: 800;
+        color: $light-01;
+    }
+
+    div.dark-light-mode {
+        width: 4rem;
+        height: 2rem;
+        background: $cream;
+        border-radius: 999px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 .5rem 0 .1rem;
+        cursor: pointer;
+        transition: $btn-transitions;
+        position: relative;
+
+        div.circle {
+            width: 1.8rem;
+            height: 1.8rem;
+            background: $smokey-black;
+            border-radius: 999px;
+            position: absolute; 
+            z-index: 2;
+            transition: $btn-transitions;
+            // left: .1rem;
+        }
+
+        i.moon-icon {
+            color: $dark-04;
+            position: absolute;
+            left: .5rem;
+            z-index: 1;
+        }
+
+        i.sun-icon {
+            color: $dark-04;
+            position: absolute;
+            right: .5rem;
+            z-index: 1;
+        }
+    }
+}
+
+// theme toggle style
+.move-right {
+    right: .1rem;
+}
+.move-left{
+    left: .1rem;
+}

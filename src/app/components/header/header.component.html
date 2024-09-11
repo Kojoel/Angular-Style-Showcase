@@ -1,0 +1,12 @@
+<header>
+    <h3 class="logo">SPACETEST</h3>
+    <div class="dark-light-mode">
+        <div class="circle"
+             (click)="toggleTheme()"
+             [class.move-right]="themeClicked"
+             [class.move-left]="!themeClicked"
+        ></div>
+        <i class="fa-solid fa-moon moon-icon"></i>
+        <i class="fa-solid fa-sun sun-icon"></i>
+    </div>
+</header>

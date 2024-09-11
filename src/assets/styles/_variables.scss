@@ -1,0 +1,24 @@
+// color variables 
+$white: #ffffff;
+$light-01: #fafafa;
+$light-02: #f5f5f5;
+$light-03: #e5e5e5;
+$dark-04: #404040;
+$dark-05: #171717;
+$cream: rgb(234, 248, 191);
+$dark-spring-green: rgb(48, 107, 52);
+$smokey-black: rgb(20, 19, 1);
+
+//gradient variables
+$dark-gradient: linear-gradient(90deg, rgba(20,9,1,1) 0%, rgba(64,64,64,1) 100%);
+$dark-gradient-02: linear-gradient(0deg, rgba(20,9,1,1) 0%, rgba(48,107,52,1) 100%);
+$dark-transparent: linear-gradient(270deg, rgba(20,9,1,1) 0%, rgba(20,9,1,1) 54%, rgba(48,107,52,0) 100%);
+
+// font variables 
+$fontserrat: "Montserrat", sans-serif;
+
+// transition variables
+$btn-transitions: .3s ease-in-out;
+
+// shadow variables
+$shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
