@@ -31,3 +31,21 @@
 @mixin maindarktheme(){
     background: $dark-gradient-02;
 }   
+
+// For cards before box 
+@mixin reasonlighttheme() {
+    background: $light-01;
+    border: 1px solid $dark-spring-green;
+}
+@mixin reasondarktheme() {
+    background: $smokey-black;
+    border: 1px solid transparent;
+}
+
+// For text
+@mixin lightthemetext() {
+    color: $smokey-black;
+}
+@mixin darkthemetext() {
+    color: $white;
+}

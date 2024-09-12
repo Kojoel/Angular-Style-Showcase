@@ -1,11 +1,17 @@
 <div class="main-container">
     @if (reasonItems$ | async; as reasons) {
         @for(reason of reasons; track reason) {
-            <div class="container">
+            <div class="container"
+            [class.lighttheme]="theme.themeClicked"
+            [class.darktheme]="!theme.themeClicked"        
+            >
                 <img class="user-image" [src]="reason.image" [alt]="reason.name">
                 <div class="testimonial">
                     <p class="user-name">{{ reason.name }}</p>
-                    <p class="user-testimonial">{{ reason.testimonial }}</p>
+                    <p class="user-testimonial"
+                        [class.lightthemetext]="theme.themeClicked"
+                        [class.darkthemetext]="!theme.themeClicked"
+                    >{{ reason.testimonial }}</p>
                 </div>
             </div>
         }
