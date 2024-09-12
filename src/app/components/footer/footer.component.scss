@@ -1,0 +1,111 @@
+@import '../../../assets/styles/variables';
+
+/* Footer Styles */
+footer {
+    background-color: $smokey-black;
+    color: $light-03;
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+  
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      
+      .footer-section {
+        flex: 1 1 200px;
+        margin: 20px;
+  
+        h4 {
+          font-size: 18px;
+          margin-bottom: 20px;
+          border-bottom: 2px solid $dark-spring-green;
+          padding-bottom: 10px;
+        }
+  
+        p, li, a {
+          font-size: 14px;
+          line-height: 1.8;
+          color: $light-03;
+        }
+  
+        a {
+          text-decoration: none;
+          color: $light-03;
+  
+          &:hover {
+            color: $dark-spring-green;
+            text-decoration: underline;
+          }
+        }
+  
+        ul {
+          list-style-type: none;
+          padding: 0;
+  
+          li {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  
+    /* Social Media Links */
+    .social-links {
+      display: flex;
+      padding: 0;
+  
+      img {
+        margin-right: 15px;
+  
+          display: inline-block;
+          padding: 10px;
+          border-radius: 50%;
+          border: 1px solid $dark-spring-green;
+          color: $light-03;
+          text-align: center;
+          width: 40px;
+          height: 40px;
+  
+          &:hover {
+            background-color: $dark-spring-green;
+          }
+      }
+    }
+  
+    /* Footer Bottom Section */
+    .footer-bottom {
+      text-align: center;
+      margin-top: 30px;
+      border-top: 1px solid $dark-spring-green;
+      padding-top: 20px;
+  
+      p {
+        font-size: 14px;
+        color: $light-03;
+      }
+  
+      .legal-links {
+        list-style-type: none;
+        padding: 0;
+        margin: 10px 0;
+  
+        li {
+          display: inline;
+          margin: 0 10px;
+  
+          a {
+            color: $light-03;
+  
+            &:hover {
+              color: $dark-spring-green;
+            }
+          }
+        }
+      }
+    }
+  }
+  
