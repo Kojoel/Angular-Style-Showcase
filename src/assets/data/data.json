@@ -1,32 +1,27 @@
 [
-    {
-      "image": "https://img.freepik.com/free-vector/realistic-mountain-landscape_52683-76545.jpg?t=st=1726072951~exp=1726076551~hmac=5dd274432d7e96620c01fdcc3282fe06bc42ee9533e7dafcdebbb4304045660f&w=900",
-      "title": "Sunset Over the Mountains",
-      "description": "A breathtaking view of the sun setting behind a mountain range, casting golden hues over the sky and clouds."
-    },
-
-    {
-      "image": "https://img.freepik.com/free-photo/field-with-blue-sky_1204-40.jpg?t=st=1726073036~exp=1726076636~hmac=30d0e79f2039239924550e716bbdb486df044455ce53d3250e0d87867cefd3d3&w=900",
-      "title": "Green Meadow and Blue Sky",
-      "description": "A peaceful scene of a lush green meadow stretching towards a clear blue sky, representing serenity and open space."
-    },
-
-    {
-      "image": "https://img.freepik.com/free-photo/3d-render-tranquil-island-sunset_1048-7534.jpg?t=st=1726073081~exp=1726076681~hmac=250459fa379d74005f46d15c28c05e8957ebccce5e3af21761c6142e98af824f&w=996",
-      "title": "Sunset Reflection on a Lake",
-      "description": "The calm waters of a lake reflecting the vibrant colors of a stunning sunset, surrounded by trees and mountains."
-    },
-
-    {
-      "image": "https://img.freepik.com/free-photo/forest-with-roadway_1112-265.jpg?t=st=1726073112~exp=1726076712~hmac=eb877300295caf3ded5c85e826d08c8fcae76755d7d91f1f09ab4bd735cd27a7&w=900",
-      "title": "Forest Road on a Summer Morning",
-      "description": "A winding road cutting through a dense forest in the early hours of a summer day, with light filtering through the trees."
-    },
-    
-    {
-      "image": "https://img.freepik.com/free-photo/horizontal-shot-mountains-covered-green-beautiful-cloudy-sky_181624-5436.jpg?t=st=1726073136~exp=1726076736~hmac=85e696124b9a03e2a52b2cdbdd98c4cd7828aadba884d3b3f5f91d7be43ea724&w=900",
-      "title": "Mountain Landscape with Clear Blue Sky",
-      "description": "A vast mountain range under a cloudless blue sky, showcasing nature's grandeur and the beauty of untouched wilderness."
-    }
-  ]
-  
+  {
+    "image": "../../../assets/images/facebook.png",
+    "title": "Facebook",
+    "description": "One of the largest social networking platforms where users can connect with friends, share content, and join communities. https://www.facebook.com"
+  },
+  {
+    "image": "../../../assets/images/instagram.png",
+    "title": "Instagram",
+    "description": "A popular photo and video sharing app that allows users to capture and share moments through visual storytelling. https://www.instagram.com"
+  },
+  {
+    "image": "../../../assets/images/twitter.png",
+    "title": "Twitter",
+    "description": "A microblogging platform where users post and interact with messages called 'tweets', engaging in real-time conversations. https://www.twitter.com"
+  },
+  {
+    "image": "../../../assets/images/linkedin.png",
+    "title": "LinkedIn",
+    "description": "A professional networking site where users can connect with colleagues, showcase their work experience, and grow their careers. https://www.linkedin.com"
+  },
+  {
+    "image": "../../../assets/images/youtube.png",
+    "title": "YouTube",
+    "description": "A video-sharing platform where users can upload, view, share, and comment on videos across various categories. https://www.youtube.com"
+  }
+]

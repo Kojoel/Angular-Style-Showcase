@@ -1,7 +1,7 @@
 @if(heroItems$ | async; as hero) {
         <div class="container">
                 <button class="left-btn btn" (click)="leftBtn()">
-                        <
+                        <i class="fa-solid fa-arrow-right"></i>
                 </button>
                 <img class="image" [src]="hero[itemCount].image" [alt]="hero[itemCount].title">
                 
@@ -10,7 +10,7 @@
                         <p class="description"> {{ hero[itemCount].description }} </p>
                 </div>
                 <button class="right-btn btn" (click)="rightBtn()">
-                        >
+                        <i class="fa-solid fa-arrow-right"></i>
                 </button>
         </div>
 }
