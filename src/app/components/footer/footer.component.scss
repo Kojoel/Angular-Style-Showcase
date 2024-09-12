@@ -1,11 +1,12 @@
 @import '../../../assets/styles/variables';
+@import '../../../assets/styles/variables';
 
 /* Footer Styles */
 footer {
     background-color: $smokey-black;
     color: $light-03;
     padding: 40px 0;
-    font-family: 'Arial', sans-serif;
+    font-family: $fontserrat;
   
     .footer-container {
       display: flex;
@@ -20,7 +21,7 @@ footer {
         margin: 20px;
   
         h4 {
-          font-size: 18px;
+          font-size: px-to-rem(18);
           margin-bottom: 20px;
           border-bottom: 2px solid $dark-spring-green;
           padding-bottom: 10px;
