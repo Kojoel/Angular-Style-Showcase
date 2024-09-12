@@ -1,0 +1,13 @@
+<div class="main-container">
+    @if (reasonItems$ | async; as reasons) {
+        @for(reason of reasons; track reason) {
+            <div class="container">
+                <img class="user-image" [src]="reason.image" [alt]="reason.name">
+                <div class="testimonial">
+                    <p class="user-name">{{ reason.name }}</p>
+                    <p class="user-testimonial">{{ reason.testimonial }}</p>
+                </div>
+            </div>
+        }
+    }
+</div>
