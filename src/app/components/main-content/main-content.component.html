@@ -1,4 +1,6 @@
-<main>
+<main
+    [class.lightmode]="theme.themeClicked"
+    [class.darkmode]="!theme.themeClicked">
     <app-hero-page></app-hero-page>
     <app-reasons></app-reasons>
 </main>

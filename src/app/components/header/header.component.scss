@@ -1,4 +1,5 @@
 @import '../../../assets/styles/variables';
+@import '../../../assets/styles/mixins';
 
 header {
     width: 100%;
@@ -6,7 +7,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: $smokey-black;
     border-radius: 0 0 8px 8px;
     padding: 0 4rem;
     position: absolute;
@@ -60,10 +60,19 @@ header {
     }
 }
 
-// theme toggle style
+// theme toggle button
 .move-right {
     right: .1rem;
 }
 .move-left{
     left: .1rem;
+}
+
+// theme toggle color
+.lightmode {
+    @include lighttheme;
+}
+
+.darkmode {
+    @include darktheme;
 }

@@ -1,3 +1,4 @@
+@import '../../assets/styles/variables';
 
 @mixin button-styles() {
     width: 50px;
@@ -12,3 +13,21 @@
     font-weight: 800;
     cursor: pointer;
 }
+
+// For Header
+@mixin lighttheme() {
+    background: $dark-spring-green;
+}
+
+@mixin darktheme() {
+    background: $smokey-black;
+}
+
+//For main content
+@mixin mainlighttheme(){
+    background: $light-03;
+}   
+
+@mixin maindarktheme(){
+    background: $dark-gradient-02;
+}   

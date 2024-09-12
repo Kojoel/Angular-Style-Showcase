@@ -1,8 +1,18 @@
 @import '../../../assets/styles/variables';
+@import '../../../assets/styles/mixins';
 
 main {
     width: 100%;
     height: fit-content;
-    padding: 0 4rem 4rem 4rem;
+    padding: 2rem 4rem 4rem 4rem;
     box-shadow: $shadow;
+}
+
+// theme toggle color
+.lightmode {
+    @include mainlighttheme;
+}
+
+.darkmode {
+    @include maindarktheme;
 }

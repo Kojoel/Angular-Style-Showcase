@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { HeroPageComponent } from '../hero-page/hero-page.component';
 import { ReasonsComponent } from '../reasons/reasons.component';
+import { ThemeService } from '../../services/theme.service';
 
 @Component({
   selector: 'app-main-content',
@@ -11,4 +12,5 @@ import { ReasonsComponent } from '../reasons/reasons.component';
 })
 export class MainContentComponent {
 
+  constructor(public theme: ThemeService) {}
 }

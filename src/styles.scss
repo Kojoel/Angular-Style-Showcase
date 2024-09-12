@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import './assets/styles/variables';
+@import './assets/styles/mixins';
 
 * {
     margin: 0;
@@ -8,6 +9,6 @@
 }
 
 body {
-    height: 70rem;
-    background: $dark-gradient-02;
+    // height: 70rem;
+    // background: $dark-gradient-02;
 }
